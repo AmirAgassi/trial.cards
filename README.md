@@ -1,6 +1,6 @@
 # [Trial.cards](https://trial.cards) 💳
 
-Welcome to [trial.cards](https://trial.cards), a web application designed to help you navigate free trials without the worry of unexpected charges. Our service generates temporary virtual credit cards (VCCs) on demand, with no registration or KYC required. 🎉
+Welcome to [trial.cards](https://littledummy445.github.io/trial.cards-Revived/), a web application designed to help you navigate free trials without the worry of unexpected charges. Our service generates temporary virtual credit cards (VCCs) on demand, with no registration or KYC required. 🎉
 
 ## Key Features 🔍
 
