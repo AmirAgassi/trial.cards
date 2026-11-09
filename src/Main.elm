@@ -95,7 +95,7 @@ init _ =
   , Cmd.batch
     [ Task.perform GotViewport Browser.Dom.getViewport
     , Http.get
-        { url = "/simple-icons.json"
+        { url = "simple-icons.json"
         , expect = Http.expectJson GotSites sitesDecoder
         }
     ]
@@ -325,7 +325,7 @@ viewWebsiteSelector model =
         (List.map 
           (\site -> 
             li [ onClick (handleSiteSelection site) ] 
-              [ img [ src ("/icons/" ++ site.slug ++ ".svg"), class "site-icon" ] []
+              [ img [ src ("icons/" ++ site.slug ++ ".svg"), class "site-icon" ] []
               , text site.name 
               ]
           ) 
@@ -443,7 +443,7 @@ viewGeneratedCard model =
                 []
             , div [ class "website-logo-container" ]
                 [ img 
-                    [ src ("/icons/" ++ (titleToSlug card.website) ++ ".svg")
+                    [ src ("icons/" ++ (titleToSlug card.website) ++ ".svg")
                     , class "website-logo"
                     , style "filter" "invert(1)"
                     ] 
