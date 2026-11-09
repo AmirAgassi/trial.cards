@@ -6230,7 +6230,7 @@ var $author$project$Main$init = function (_v0) {
 					A2($elm$core$Task$perform, $author$project$Main$GotViewport, $elm$browser$Browser$Dom$getViewport),
 					$elm$http$Http$get(
 					{
-						url: '/simple-icons.json',
+						url: 'simple-icons.json',
 						expect: A2($elm$http$Http$expectJson, $author$project$Main$GotSites, $author$project$Main$sitesDecoder)
 					})
 				])));
@@ -6340,7 +6340,7 @@ var $author$project$Main$viewGeneratedCard = function (model) {
 									_List_fromArray(
 										[
 											$elm$html$Html$Attributes$src(
-											'/icons/' + ($author$project$Main$titleToSlug(card.website) + '.svg')),
+											'icons/' + ($author$project$Main$titleToSlug(card.website) + '.svg')),
 											$elm$html$Html$Attributes$class('website-logo'),
 											A2($elm$html$Html$Attributes$style, 'filter', 'invert(1)')
 										]),
@@ -7091,7 +7091,7 @@ var $author$project$Main$viewWebsiteSelector = function (model) {
 									$elm$html$Html$img,
 									_List_fromArray(
 										[
-											$elm$html$Html$Attributes$src('/icons/' + (site.slug + '.svg')),
+											$elm$html$Html$Attributes$src('icons/' + (site.slug + '.svg')),
 											$elm$html$Html$Attributes$class('site-icon')
 										]),
 									_List_Nil),
